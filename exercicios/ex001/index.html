@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/logo-html-50.png" type="image/x-icon">
+    <title>Document</title>
+    <style>
+        mark {
+            background-color: rgb(52, 255, 86);
+        }
+    </style>
+</head>
+<body>
+    <h1>Meu primeiro projeto em html</h1>
+    <hr>
+    <h2>Testando carga de imagem</h2>
+    <p> Estou aprendendo pararagrafos, quebras de linhas, emojis e imagens</p>
+    <br>
+    esses são alguns simbolos que aprendi: &reg; &Delta;
+    <br>
+    esse é o emoji que aprendi: &#x1F596;
+    <img src="imagens/logo-html-50.png" alt="Logo HTML5">
+
+    <h1> Negrito / Destaque</h1>
+    <p>Nessa frase temos um <b>termo em negrito</b> usando a tag B</p>
+    <p>Nessa frase temos um <strong> termo em dastaque</strong> usando a Tag strong</p>
+    <h2> Italico / Ênfase </h2>
+    <p> Nessa frase <i>temos um termo em italico</i> </p>
+    <h2> Texto marcado </h2>
+    <p> podemos criar também um<mark> texto marcado</mark> usando a tag MARK </p>
+    <p> outro <mark> texto marcado</mark> usando a tag MARK </p>
+    <h2> Texto grande e pequeno</h2>
+    <p> Estamos criando um <big>texto grande</big> e um <small>texto pequeno </small>nesse paragrafo </p>
+    <h2> Texto deletado</h2>
+    <p> nesse paragrafo vamos criar um <del>texto deletado</del> com a tag del</p>
+    <h2> Texto sublinhado</h2>
+    <p> podemos marcar <ins>um texto como inserido</ins> para dar ênfase e indicar que ele adicionado depois </p>
+    <h2> Texto sobrescrito </h2>
+    <p> para inserir coisas tipo x<sup>20</sup></p>+3
+    <h2> Texto subscrito</h2>
+    <p> para inserir coisas do tipo h<sub>2</sub>o </p>
+    <h2>Codigo-fonte</h2>
+    <p> O comando <code>document.getElementById('teste')</code> é escrito em linguagem Javascript </p>
+    <pre>
+    <code>
+        num = int(input('Digite um número'))
+        if num % 2 == 0:
+            print(f'O número {num} é PAR')
+        else: 
+            print(f'O número {num} é ÍMPAR)
+
+    </code>
+    </pre>
+    <h2> Citação simples</h2>
+    <p>Como diria um pai de um amigo meu:<q> O computador é um burro muito rápido.</q></p>
+
+    <p> Segundo Barbara M Linde, no seu livro da Tay:</p>
+    <blockquote cite="https://www.google.com.br/books/edition/Taylor_Swift/EGR1ee5Bq2IC?hl=en&gbpv=1&dq=taylor+swift&pg=PA45&printsec=frontcover"> Ninguem liga o que ela disse, só estou testando a tag </blockquote>
+
+    <h2>Abreviações</h2>
+    <p>Estou estudando <abbr title="Hyper Text Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>. É top!</p>
+
+    <h1>Trabalhando com Listas</h1>
+    <ol>
+        <li>Acordar</li>
+        <li>Comer</li>
+        <li>Trabalhar</li>
+    </ol>
+
+    <ul>
+        <li>Pão</li>
+        <li>Cuscuz</li>
+        <li>Carne</li>
+    </ul>
+
+    <h2>Minhas linguagens favoritas</h2>
+    <ol>
+        <li>Antigas</li>
+        <ol type="a">
+        <li>Clipper</li>
+        <li>Visual Bacis</li>
+        <li>Fortran</li>
+        <li>Delphi</li>
+        </ol>
+    <li>Novas</li>
+        <ol type="a">
+        <li>Javascript</li>
+        <li>PHP</li>
+        <li>Kotlin</li>
+        <li>Python</li>
+        </ol>
+    </ol>
+
+    <h2>Lista de Definições</h2>
+    <ol>
+        <dt>HTML</dt>
+        <dd>Linguem de marcação para a criação do conteudo de um site</dd>
+        <dt>CSS</dt>
+        <dd>Linguagem de marcação para criação de design de um site</dd>
+    </ol>
+    <h1> Usando links externos</h1>
+    <p>voce pode achar meu<a href="https://github.com/login" target=_blank rel="external"> repositório público do GitHub</a></p>
+    <h2>Usando links internos</h2>
+    <p>Está é a primeira página do site. Se você quiser, pode acessar também a minha <a href="page002.html" rel="next" target="_self">segunda página</a></p>
+    <p>Você também pode acessar a nossa <a href="noticias/003.html" rel="next" target="_self">página de noticias</a></p>
+
+    <h1>Links para download</h1>
+    <ul>
+        <li><a href="livro/Molde polaroid.pdf">Baixar o livro em pdf</a></li>
+        <li><a href="livro/Molde polaroid.zip">Baixar o livro em zip</a></li>
+    </ul>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/P.jpg" type="image/jpg">
+        <source media="(max-width: 1250px)" srcset="imagens/M.jpg" type="image/jpg">
+        <img src="imagens/G.jpg" alt="imagem flexivel">
+    </picture>
+    <h1>Reproduzindo Áudio</h1>
+    <p>Reproduzindo áudio no site</p>
+    <audio src="midia/Male Zombie Roar.mp3" controls autoplay></audio>
+    
+    </body>
+</html>   
