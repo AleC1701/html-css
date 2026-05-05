@@ -1,2 +1,3 @@
 # html-css
-pasta de estudos
+Pasta de estudos
+Estou aprendendo a gerenciar os meus repositórios.
