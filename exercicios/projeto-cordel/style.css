@@ -1,0 +1,121 @@
+
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Cause:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    min-height: 100hv;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+header {
+
+    background-color: black;
+    color: white;
+    text-align: center;
+    
+}
+
+header > h1 {
+
+    padding-top: 50px;
+    font-variant: small-caps;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 5vw;
+    
+}
+
+header p {
+    padding-bottom:  50PX; 
+    font-size: 2vw;
+}
+   
+
+header a, footer a{
+   
+    text-decoration: none;
+    color: white;
+    
+}
+
+header a:hover, footer a:hover{
+   
+   text-decoration: underline;
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3.5vw;
+}
+
+section > p {
+
+    padding-bottom: 1em;
+    font-family: "Cause", cursive;
+    font-weight: bold;
+}
+section.normal {
+    background-color: white;
+    color: black;
+}
+section.image {
+    background-color: rgb(35, 136, 49);
+
+   
+
+}
+
+section.image > p {
+    
+    display: inline-block;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.514);
+    color: white; 
+}
+
+section#img1 {
+    background-image: url(imagens/a-natureza.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+section#img2 {
+
+    background-image: url(imagens/onde-a-natureza-esta-abre-conexao-planeta-foto-marcos-amend.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    }
+
+
+
+.normal {
+    background-color: white;
+    background-color: white;
+    padding: 40px 20px;
+}
+
+
+footer {
+
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 1em;
+    padding: 10px;
+}
