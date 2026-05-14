@@ -1,0 +1,156 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100vh;
+    
+    
+}
+
+body {
+    background-image: url(./imagens/fundo-madeira.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    
+}
+
+main {
+    height: 100vh;
+    position: relative;
+}
+
+#redes {
+    
+max-width: 105px; /* ou qualquer tamanho */
+margin-left: auto;
+}
+
+
+
+.tela {
+    
+    position: absolute;
+    height: 91vh;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 10px;
+   
+    
+    
+}
+
+.container iframe {
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 380px;
+  height: 665px;
+  border: none;
+  background-color: rgb(255, 255, 255);
+  
+
+}
+
+
+.home {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin: 15px;
+    border: 2px solid transparent;
+    
+   
+}
+
+.home:hover {
+  transform: scale(1.1);
+  transform: translate(5%, 5%);
+  border: 2px solid violet;
+  
+  
+}
+
+.youtube {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin: 15px;
+    border: 2px solid transparent;
+}
+
+.youtube:hover {
+  transform: scale(1.1);
+  transform: translate(5%, 5%);
+  border: 2px solid violet;
+  
+  
+}
+.github {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin: 15px;
+    border: 2px solid transparent;
+}
+
+.github:hover {
+  transform: scale(1.1);
+  transform: translate(5%, 5%);
+  border: 2px solid violet;
+  
+  
+}
+.instagram {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin: 15px;
+    border: 2px solid transparent;
+}
+
+.instagram:hover {
+  transform: scale(1.1);
+  transform: translate(5%, 5%);
+  border: 2px solid violet;
+  
+  
+}
+.twitter {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin: 15px;
+    border: 2px solid transparent;
+}
+
+.twitter:hover {
+  transform: scale(1.1);
+  transform: translate(5%, 5%);
+  border: 2px solid violet;
+  
+  
+}
+
+.facebook {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin: 15px;
+    border: 2px solid transparent;
+}
+
+.facebook:hover {
+  transform: scale(1.1);
+  border: 2px solid violet;
+  
+  
+}
