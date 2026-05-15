@@ -17,6 +17,7 @@ body {
     background-size: cover;
     background-attachment: fixed;
     background-position: center center;
+    background-color: black;
     
 }
 
@@ -25,26 +26,47 @@ main {
     position: relative;
 }
 
-#redes {
-    
-max-width: 105px; /* ou qualquer tamanho */
-margin-left: auto;
-}
-
-
-
-.tela {
-    
+#telefone {
     position: absolute;
-    height: 91vh;
-    top: 50%;
-    left: 50%;
+    top:50%;
+    left:50%;
     transform: translate(-50%, -50%);
-    margin-top: 10px;
-   
-    
-    
+
+    height: 627px;
+    width: 311px;
+    background-image: url(imagens/frame-iphone.png);
 }
+
+iframe#tela {
+
+position: relative;
+top: 80px;
+left: 22px;
+width: 269px;
+height: 471px;
+  
+}
+
+#redes {
+    text-align: right;
+}
+
+#redes img {
+
+    width: 70px;
+    border-radius: 50%;
+    margin: 15px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.555);
+    box-sizing: border-box;
+}
+
+#redes img:hover {
+    border: 2px solid rgb(248, 240, 248);
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.438);
+    transition: transform 0.5s;
+}
+
 
 .container iframe {
 
@@ -56,101 +78,5 @@ margin-left: auto;
   height: 665px;
   border: none;
   background-color: rgb(255, 255, 255);
-  
-
-}
-
-
-.home {
-    width: 70px;
-    height: 70px;
-    border-radius: 50%;
-    margin: 15px;
-    border: 2px solid transparent;
-    
-   
-}
-
-.home:hover {
-  transform: scale(1.1);
-  transform: translate(5%, 5%);
-  border: 2px solid violet;
-  
-  
-}
-
-.youtube {
-    width: 70px;
-    height: 70px;
-    border-radius: 50%;
-    margin: 15px;
-    border: 2px solid transparent;
-}
-
-.youtube:hover {
-  transform: scale(1.1);
-  transform: translate(5%, 5%);
-  border: 2px solid violet;
-  
-  
-}
-.github {
-    width: 70px;
-    height: 70px;
-    border-radius: 50%;
-    margin: 15px;
-    border: 2px solid transparent;
-}
-
-.github:hover {
-  transform: scale(1.1);
-  transform: translate(5%, 5%);
-  border: 2px solid violet;
-  
-  
-}
-.instagram {
-    width: 70px;
-    height: 70px;
-    border-radius: 50%;
-    margin: 15px;
-    border: 2px solid transparent;
-}
-
-.instagram:hover {
-  transform: scale(1.1);
-  transform: translate(5%, 5%);
-  border: 2px solid violet;
-  
-  
-}
-.twitter {
-    width: 70px;
-    height: 70px;
-    border-radius: 50%;
-    margin: 15px;
-    border: 2px solid transparent;
-}
-
-.twitter:hover {
-  transform: scale(1.1);
-  transform: translate(5%, 5%);
-  border: 2px solid violet;
-  
-  
-}
-
-.facebook {
-    width: 70px;
-    height: 70px;
-    border-radius: 50%;
-    margin: 15px;
-    border: 2px solid transparent;
-}
-
-.facebook:hover {
-  transform: scale(1.1);
-  border: 2px solid violet;
-  
   
 }
