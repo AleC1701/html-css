@@ -30,40 +30,7 @@ Grandes telas: acima de 1200px */
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
    
-    
-body {
-    background-color: rgb(211, 213, 216);
-}
 
-header {
-    background-color: rgb(119, 122, 124);
-    
-}
-
-header h1 {
-    padding: 50px;
-    margin: auto;
-    text-align: center;
-    font-size: 3em;
-    
-}
-
-ul {
-    list-style: none;
-}
-
-
-li {
-    color:white;
-    background-color: rgb(91, 94, 97);
-    padding: 15px;
-    max-width: 120px;
-    display: inline-block;
-    text-align: center;
-    font-size: 1.2em;
-    box-shadow: 2px 0px 3px rgba(0, 0, 0, 0.37);
-
-}
 
 main {
     background-color: white;
@@ -92,6 +59,10 @@ article {
  
 }
 
+#burger {
+    display: none;
+}
+
 }
 
 
@@ -101,39 +72,7 @@ article {
 
 @media screen and (min-width: 993px) and (max-width: 1200px) {
 
-    body {
-    background-color: rgb(211, 213, 216);
-}
-
-header {
-    background-color: rgb(119, 122, 124);
-    
-}
-
-header h1 {
-    padding: 50px;
-    margin: auto;
-    text-align: center;
-    font-size: 3em;
-    
-}
-
-ul {
-    list-style: none;
-}
-
-
-li {
-    color:white;
-    background-color: rgb(91, 94, 97);
-    padding: 15px;
-    max-width: 120px;
-    display: inline-block;
-    text-align: center;
-    font-size: 1.2em;
-    box-shadow: 2px 0px 3px rgba(0, 0, 0, 0.37);
-
-}
+   
 
 main {
     background-color: white;
@@ -159,46 +98,17 @@ article {
  
 }
 
+#burger {
+    display: none;
+}
+
 }
 
 /* pc */
 
 @media screen and (min-width: 1201px) {
 
-  
-   body {
-    background-color: rgb(211, 213, 216);
-}
-
-header {
-    background-color: rgb(119, 122, 124);
-    
-}
-
-header h1 {
-    padding: 50px;
-    margin: auto;
-    text-align: center;
-    font-size: 3em;
-    
-}
-
-ul {
-    list-style: none;
-}
-
-
-li {
-    color:white;
-    background-color: rgb(91, 94, 97);
-    padding: 15px;
-    max-width: 120px;
-    display: inline-block;
-    text-align: center;
-    font-size: 1.2em;
-    box-shadow: 2px 0px 3px rgba(0, 0, 0, 0.37);
-
-}
+ 
 
 main {
     background-color: white;
@@ -222,6 +132,10 @@ article {
     font-family: 'Courier New', Courier, monospace;
     font-size: 1.2em;
  
+}
+
+#burger {
+    display: none;
 }
 
 }
