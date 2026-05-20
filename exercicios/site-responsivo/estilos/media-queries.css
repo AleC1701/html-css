@@ -8,12 +8,6 @@
 }
 
 
-
-html, body {
-    height: 100vh;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
 /* Todas as demais midias */
 
 
@@ -24,125 +18,26 @@ Tablet: 768 até 992px
 Desktop: 992px até 1200px
 Grandes telas: acima de 1200px */
 
-@media print {
-  
+
+
+
+@media screen and (min-width: 768px)  {
     #burger {
-    display: none;
+        display: none;
+    }
+
+    nav {
+        display: block;
+        
+    }
+
+    nav li {
+        display: inline-block;
+        text-align: center;
+    }
+
+    main {
+        max-width: 700px;
+    }
 }
-
-}
-
-@media screen and (min-width: 768px) and (max-width: 992px) {
-   
-
-
-main {
-    background-color: white;
-    max-width: 992px;
-    min-height: 100%;
-    display: block;
-    margin: auto;
-    margin-top: 15px;
-    margin-left: 20px;
-    margin-right: 20px;
-    border-radius: 15px;
-}
-
-main h2 {
-    padding: 15px;
-    font-size: 1.7em;
-    text-align: left;
-}
-
-article {
-    max-width: 600px;
-    padding: 15px;
-    margin: auto;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 1.2em;
- 
-}
-
-#burger {
-    display: none;
-}
-
-}
-
-
-/* tablet */
-
-
-
-@media screen and (min-width: 993px) and (max-width: 1200px) {
-
-   
-
-main {
-    background-color: white;
-    max-width: 900px;
-    min-height: 100%;
-    display: block;
-    margin: auto;
-    margin-top: 15px;
-    border-radius: 15px;
-}
-
-main h2 {
-    padding: 15px;
-    font-size: 1.7em;
-}
-
-article {
-    max-width: 700px;
-    padding: 15px;
-    margin: auto;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 1.2em;
- 
-}
-
-#burger {
-    display: none;
-}
-
-}
-
-/* pc */
-
-@media screen and (min-width: 1201px) {
-
- 
-
-main {
-    background-color: white;
-    max-width: 1000px;
-    min-height: 100%;
-    display: block;
-    margin: auto;
-    margin-top: 15px;
-    border-radius: 15px;
-}
-
-main h2 {
-    padding: 15px;
-    font-size: 1.7em;
-}
-
-article {
-    max-width: 900px;
-    padding: 15px;
-    margin: auto;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 1.2em;
- 
-}
-
-#burger {
-    display: none;
-}
-
-}
-
-
    
