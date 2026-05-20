@@ -37,7 +37,7 @@ Grandes telas: acima de 1200px */
     }
 
     main {
-        max-width: 700px;
+        width: 700px;
     }
 }
    
